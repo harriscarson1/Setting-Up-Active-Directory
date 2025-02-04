@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://github.com/user-attachments/assets/33e6832c-c5d9-4d66-953c-306aa8559e98" alt="Azure logo"/>
 </p>
 
-<h1>osTicket - Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>Active Directory - Installation and Setup</h1>
+This tutorial outlines the  installation of an Active Directory system on a DNS server running on a Virtual Machine.<br />
 
 
 
@@ -11,11 +11,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop
-- Internet Information Services (IIS)
+- DNS
+- Active Directory
 
 <h2>Operating System </h2>
 
 - Windows 10</b> (22H2)
+- Windows Server 2022 Database
 
 
 <h2>Installation Steps</h2>
