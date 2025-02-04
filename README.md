@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory - Installation and Setup</h1>
-This tutorial outlines the  installation of an Active Directory system on a DNS server running on a Virtual Machine.<br />
+This tutorial outlines the  installation of an Active Directory system on a DNS server running on a Virtual Machine aswell as how to configure it for an organization.<br />
 
 
 
