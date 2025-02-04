@@ -401,5 +401,7 @@ As we can see the account is able to login
   <img src="https://github.com/user-attachments/assets/84fd3f2c-bd30-4755-ab40-ebe33718cfb1" height="80%" width="80%"/>
 </p>
 <br />
-
+<p>
+After this is done you can do things like reset paswords disable or undisbale accounts in the active directory employees OU by right clicking any employee and clicking the appropriate option
+  </p>
 
