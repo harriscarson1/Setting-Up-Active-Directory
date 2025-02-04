@@ -96,7 +96,7 @@ Change allocation to static and click save
 <br />
 
 <p>
-Next we need to log into the domain controller and disable the firewall just so that everything works smoothly for the purpose of this lab, this may not be done in a real setting. First we lRemote into the Dc1 VM and once at the desktop open run and type ws.mfc and enter to open the Windows firewall security settings
+Next we need to log into the domain controller and disable the firewall just so that everything works smoothly for the purpose of this lab, this may not be done in a real setting. First we Remote into the Dc1 VM and once at the desktop open run and type ws.mfc and enter to open the Windows firewall security settings
   </p>
 <p>
   <img src="https://github.com/user-attachments/assets/18e10ca7-e0c7-42c3-a35d-f2c9a68e9bbb" height="80%" width="80%"/>
@@ -113,7 +113,7 @@ We then can click Windows Defender firewall properties and disable them all.
 <br />
 
 <p>
-Next I'm going to set Client1’s dns server as Dc1’s ip address that we set to static. We can do this by first getting the private ip address for the DC1 which in my case is 10.0.0.4 and then go to the client 1 network settings in azure
+Next I'm going to set Client-1’s dns server as Dc1’s ip address that we set to static. We can do this by first getting the private ip address for the DC1 which in my case is 10.0.0.4 and then go to the client 1 network settings in azure
   </p>
 <p>
   <img src="https://github.com/user-attachments/assets/b3d06625-0f8a-47c5-8e03-7a0ccad5fd47" height="80%" width="80%"/>
@@ -245,7 +245,7 @@ We can now remote back into the domain controller using the new domain in our us
 <br />
 
 <p>
-Next we are going to create a Domain Admin for the domain. First we need to open Active Directory Users and Computers and i am going to make 2 Organizational units Employees and Admins
+Next we are going to create a Domain Admin for the domain. First we need to open Active Directory Users and Computers and i am going to make 2 Organizational Units: Employees and Admins
 
   </p>
 <p>
@@ -402,6 +402,6 @@ As we can see the account is able to login
 </p>
 <br />
 <p>
-After this is done you can do things like reset paswords disable or undisbale accounts in the active directory employees OU by right clicking any employee and clicking the appropriate option
+After this is done you can do things like reset paswords disable or enable accounts in the active directory employees OU by right clicking any employee and clicking the appropriate option
   </p>
 
